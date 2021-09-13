@@ -1,6 +1,6 @@
 
 a, a:hover, a:focus {
-	color: #796DBF;
+	color: #d904e6;
 }
 
 /* === Navbar === */
@@ -125,7 +125,11 @@ a, a:hover, a:focus {
 
 /* === Rotate Box === */
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: #51497F;
+	background:linear-gradient(
+		45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);
 }
 
 
@@ -136,7 +140,11 @@ a, a:hover, a:focus {
 	background-color: transparent;
 }
 .progress-bar {
-	background-color: #796DBF;
+	background:linear-gradient(
+		45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);;
 }
 
 
@@ -149,11 +157,19 @@ a, a:hover, a:focus {
 
 /* === Portfolio === */
 .active_prot_menu a, .portfolio_menu ul li a:hover{
-	background: #51497F !important;
+	background:linear-gradient(
+		45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%)!important;
 	color: #fff !important;
 }
 .portfolio_single_content div{
-	background: none repeat scroll 0 0 rgba( 81, 73, 127, 0.95);
+	background: repeat scroll 0 0 linear-gradient(
+		45deg, hsla(262, 98%, 41%, 0.4) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 0.4) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 0.4) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 0.4) 100%, hsla(261, 92%, 41%, 0) 70%);
 }
 
 
@@ -186,18 +202,15 @@ a, a:hover, a:focus {
 #contact-section {
 	background-color: #51497F;
 }
-#contact-section .contact .contact-form button {
-	background-color: #51497F;
-}
-#contact-section .contact .contact-form button:hover {
-	background-color: #796DBF;
-}
-
 
 
 /* === Footer === */
 .footer-top {
-	background-color: #51497F;
+	background:linear-gradient(
+		45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%)!important;
 }
 .footer {
 	background-color: #2d3035;
@@ -216,12 +229,17 @@ a, a:hover, a:focus {
 
 /* === Buttons === */
 .btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
-	background: #51497F;
+	background:linear-gradient(
+		45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(
+		135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(
+		225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(
+		315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);
 	color: #fff;
+	opacity: 0.75;
 }
 .btn-default:hover {
 	color: #fff;
-	background: #796DBF;
+	opacity: 1;
 }
 .btn-primary, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	background-color: #3078B3;
@@ -244,8 +262,8 @@ a, a:hover, a:focus {
 
 /* === To Top === */
 .scrolltotop {
-	color: #796DBF;
-	border: 2px solid #796DBF;
+	color: #db04e6bb;
+	border: 2px solid #d904e6;
 }
 
 
